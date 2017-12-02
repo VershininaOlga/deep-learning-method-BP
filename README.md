@@ -22,35 +22,35 @@
 
     - Путь до изображений обучающей выборки
 	
-			`fileTrainImageMNIST, MNIST_Database/train-images.idx3-ubyte`
+			fileTrainImageMNIST, MNIST_Database/train-images.idx3-ubyte
 	
 	- Путь до меток обучающей выборки
 	
-			`fileTrainLabelsMNIST, MNIST_Database/train-labels.idx1-ubyte`
+			fileTrainLabelsMNIST, MNIST_Database/train-labels.idx1-ubyte
 
 	- Путь до изображений тестовой выборки
 	
-			`fileTestImageMNIST, MNIST_Database/t10k-images.idx3-ubyte`
+			fileTestImageMNIST, MNIST_Database/t10k-images.idx3-ubyte
 
 	- Путь до меток тестовой выборки
 	
-			`fileTestLabelsMNIST, MNIST_Database/t10k-labels.idx1-ubyte`
+			fileTestLabelsMNIST, MNIST_Database/t10k-labels.idx1-ubyte
 
 	- Количество нейронов на скрытом слое
 	
-			`numberHiddenNeurons, 200`
+			numberHiddenNeurons, 200
 
 	- Максимальное число эпох
 	
-			`numberEpochs, 50`
+			numberEpochs, 50
 
 	- Скорость обучения
 	
-			`learningRate, 0.008`
+			learningRate, 0.008
 
 	- Требуемая точность
 	
-			`errorCrossEntropy, 0.005`
+			errorCrossEntropy, 0.005
 	
 4. Откройте в `Visual Studio` собранное решение. В свойствах решения укажите, что первым запускаемым проектом должен быть `MethodBackPropagation`.
    Скомпилируйте и запустите приложение.
